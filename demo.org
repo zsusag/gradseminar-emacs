@@ -1,0 +1,96 @@
+#+TITLE: A Fancy Title
+#+AUTHOR: Zachary J. Susag
+#+DATE: 2025-04-23
+#+OPTIONS: tex:t
+
+* This is a heading
+** This is a sub-heading
+*** This ia sub-sub-heading
+**** okay I'll stop now
+
+Paragraphs are separated by at least one empty line.
+
+*bold*, /italic/, _underlined_, +strikethrough+, ~monospaced~, and =verbatim=
+
+[[https://orgmode.org][Link description]]
+[[https://orgmode.org]] -> Link without description
+
+* Lists
+Org Mode has
+** Unordered Lists
+- list item
+- another
+- and another
+  + it doesn't really matter which symbol you use
+  + as long as you are consistent
+    * within each level
+** Ordered Lists
+1. maybe you like order
+2. structure
+3. enumeration
+   1) but maybe not periods
+** Checklists [0/3] [0%]
+- [ ] I use these all the time
+- [ ] they are real handy
+- [ ] and satisfying to use
+
+* Tables
+Org Mode also has tables!
+
+| Student | Prelim | Final | Mean |
+|---------+--------+-------+------|
+| Alice   |     87 |    92 | 89.5 |
+| Bob     |     59 |    90 | 74.5 |
+| Charlie |     85 |    72 | 78.5 |
+#+TBLFM: $4=vmean($2..$3)
+
+* LaTeX
+\begin{equation}                        % arbitrary environments,
+x=\sqrt{b}                              % even tables, figures, etc
+\end{equation}
+
+(Preview using =C-c C-x C-l (org-latex-preview)=)
+
+If $a^2=b$ and \( b=2 \), then the solution must be
+either $$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \].
+
+* Exporting to other formats
+Org Mode can export your Org files to many other formats, including Markdown,
+HTML, and PDF.
+
+* Literate Programming
+This is one of my favorite features of Org Mode. You can embed arbitrary source
+code within your Org Mode files, allowing you to seamlessly interleave prose and
+code. This is especially useful for writing log files, artifact documentations,
+and notes.
+
+For example, I can write some Python in a source code block
+
+#+begin_src python :results output
+  print("Hello, World!")
+#+end_src
+
+#+RESULTS:
+: Hello, World!
+
+
+#+begin_src sh
+  echo "hi"
+#+end_src
+
+#+RESULTS:
+: hi
+
+
+#+BEGIN_SRC shell :results table :var data="1 2 3 4"
+echo $data > /tmp/foo
+for i in `cat /tmp/foo`; do
+  echo $i
+done
+#+END_SRC
+
+#+RESULTS:
+| 1 |
+| 2 |
+| 3 |
+| 4 |
