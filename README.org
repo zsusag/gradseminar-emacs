@@ -59,6 +59,7 @@ calendars!
 * Resources
 - [[https://www.gnu.org/software/emacs/][GNU Emacs Homepage]]
   - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html][GNU Emacs Documentation]]
+- [[https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf][GNU Emacs Reference Card]]
 - [[https://www.gnu.org/software/emacs/manual/html_node/elisp/index.html][Emacs Lisp Manual]]
 - [[https://orgmode.org/][Org Mode Homepage]]
   - [[https://orgmode.org/manuals.html][Org Mode Manual]]
