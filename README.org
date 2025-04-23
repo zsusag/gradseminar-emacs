@@ -2,4 +2,56 @@
 #+AUTHOR: Zachary J. Susag
 #+DATE: <2025-04-23 Wed>
 
-Stub.
+* Outline
+
+** Emacs is extensible and fully customizable.
+Nearly every aspect of Emacs can be customized and extended. To some, Emacs is
+an entire operating system. But wait, isn't Emacs just a text editor?
+
+*** Emacs is an interpreter.
+Nearly all functionality in Emacs is implemented in [[https://en.wikipedia.org/wiki/Emacs_Lisp][Emacs Lisp (Elisp)]], a
+dialect of Lisp. Emacs' "kernel" (written in C) is effectively an interpreter
+for Elisp. This enables Emacs to be ported to multiple operating systems and
+architectures without having to modify the bulk of the functionality written in Elisp.
+
+**** Emacs is an OS
+Many, many, /many/ applications have been developed to extend Emacs'
+functionality. The range is actually quite startling; everything from Git
+interfaces to PDF viewers, web browsers to email clients --- even [[https://github.com/ch11ng/exwm][a
+full-featured tiling X window manager]]! Here's [[https://github.com/emacs-tw/awesome-emacs][a link]] to a list of popular Emacs
+packages.
+
+Today, we will focus on two packages in particular: Org Mode and Magit.
+
+*** Config Tour
+It might not surprise you at this point to learn that you customize Emacs by
+writing Emacs Lisp! Let's take a look at my personal configuration.
+
+[[file:~/.config/emacs/init.el][~/.config/emacs/init.el]]
+[[file:~/.config/emacs/config.org][~/.config/emacs/config.org]]
+
+**** Emacs is self-documenting
+One of the really handy features about Emacs is that you can look up what any
+function does with =C-h help-command=.
+
+** Org Mode
+Each Emacs buffer has one /major/ mode and some number of /minor/ modes. [[https://orgmode.org/][Org Mode]] is
+#+begin_quote
+A GNU Emacs major mode for keeping notes, authoring documents, computational
+notebooks, literate programming, maintaining to-do lists, planning projects, and
+more — in a fast and effective plain text system.
+#+end_quote
+
+I personally use Org Mode everyday to manage my tasks, calendar, and my notes.
+
+First, we will cover basic Org Mode syntax. Afterwards, I'll briefly showcase my
+task management and note taking system.
+
+** Magit
+[[https://magit.vc/][Magit]] is "a complete text-based user interface to Git" inside of Emacs! I'm not
+kidding when I say that this package /alone/ might be enough to convince you to
+use Emacs.
+
+One of the key benefits of using Org Mode is that everything is stored in
+plaintext! This makes it trivial to version control your notes, tasks, and even
+calendars!
