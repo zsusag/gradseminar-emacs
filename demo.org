@@ -33,7 +33,12 @@ Org Mode has
 - [ ] I use these all the time
 - [ ] they are real handy
 - [ ] and satisfying to use
+** Definition Lists
+Great for definitions!
 
+- Word :: Definition
+- Emacs :: Is great!
+- Vim :: Is evil.
 * Tables
 Org Mode also has tables!
 
