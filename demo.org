@@ -81,7 +81,7 @@ For example, I can write some Python in a source code block
 #+end_src
 
 
-#+BEGIN_SRC shell :results table :var data="1 2 3 4"
+ #+BEGIN_SRC shell :results table :var data="1 2 3 4"
 echo $data > /tmp/foo
 for i in `cat /tmp/foo`; do
   echo $i
