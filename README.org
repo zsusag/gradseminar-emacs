@@ -17,7 +17,7 @@ architectures without having to modify the bulk of the functionality.
 **** Emacs is an OS
 Many, many, /many/ applications have been developed to extend Emacs'
 functionality. The range is actually quite startling; everything from Git
-interfaces to PDF viewers, web browsers to email clients --- even [[https://github.com/ch11ng/exwm][a
+interfaces to PDF viewers, web browsers to email clients --- even [[https://github.com/emacs-exwm/exwm][a
 full-featured tiling X window manager]]! Here's [[https://github.com/emacs-tw/awesome-emacs][a link]] to a list of popular Emacs
 packages.
 
