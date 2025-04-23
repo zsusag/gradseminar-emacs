@@ -27,8 +27,8 @@ Today, we will focus on two packages in particular: Org Mode and Magit.
 It might not surprise you at this point to learn that you customize Emacs by
 writing Emacs Lisp! Let's take a look at my personal configuration.
 
-[[file:~/.config/emacs/init.el][~/.config/emacs/init.el]]
-[[file:~/.config/emacs/config.org][~/.config/emacs/config.org]]
+- [[file:~/.config/emacs/init.el][~/.config/emacs/init.el]]
+- [[file:~/.config/emacs/config.org][~/.config/emacs/config.org]]
 
 **** Emacs is self-documenting
 One of the really handy features about Emacs is that you can look up what any
