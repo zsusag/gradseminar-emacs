@@ -55,3 +55,17 @@ use Emacs.
 One of the key benefits of using Org Mode is that everything is stored in
 plaintext! This makes it trivial to version control your notes, tasks, and even
 calendars!
+
+* Resources
+- [[https://www.gnu.org/software/emacs/][GNU Emacs Homepage]]
+  - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html][GNU Emacs Documentation]]
+- [[https://www.gnu.org/software/emacs/manual/html_node/elisp/index.html][Emacs Lisp Manual]]
+- [[https://orgmode.org/][Org Mode Homepage]]
+  - [[https://orgmode.org/manuals.html][Org Mode Manual]]
+- [[https://magit.vc/][Magit Homepage]]
+- [[https://github.com/emacs-tw/awesome-emacs][Awesome Emacs]]
+
+** For Vim Users
+Vim users should be aware that there is a sect within the Emacs community for
+you! The [[https://github.com/emacs-evil/evil][evil]] package is an extensible vi layer for Emacs which emulates most of
+the main features of Vim.
