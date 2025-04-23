@@ -16,7 +16,7 @@ Paragraphs are separated by at least one empty line.
 [[https://orgmode.org]] -> Link without description
 
 * Lists
-Org Mode has
+Org Mode has:
 ** Unordered Lists
 - list item
 - another
@@ -75,16 +75,10 @@ For example, I can write some Python in a source code block
   print("Hello, World!")
 #+end_src
 
-#+RESULTS:
-: Hello, World!
-
 
 #+begin_src sh
   echo "hi"
 #+end_src
-
-#+RESULTS:
-: hi
 
 
 #+BEGIN_SRC shell :results table :var data="1 2 3 4"
@@ -93,9 +87,3 @@ for i in `cat /tmp/foo`; do
   echo $i
 done
 #+END_SRC
-
-#+RESULTS:
-| 1 |
-| 2 |
-| 3 |
-| 4 |
