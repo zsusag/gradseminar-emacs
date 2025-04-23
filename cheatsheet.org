@@ -1,20 +1,20 @@
- * This Is A Heading
- ** This Is A Sub-Heading
- *** And A Sub-Sub-Heading
+* This Is A Heading
+** This Is A Sub-Heading
+*** And A Sub-Sub-Heading
 
- Paragraphs are separated by at least one empty line.
+Paragraphs are separated by at least one empty line.
 
- *bold* /italic/ _underlined_ +strikethrough+ =monospaced=
- [[http://Karl-Voit.at][Link description]]
- http://Karl-Voit.at → link without description
+*bold* /italic/ _underlined_ +strikethrough+ =monospaced=
+[[http://Karl-Voit.at][Link description]]
+http://Karl-Voit.at → link without description
 
- - list item
- - another item
-   - sub-item
-     1. also enumerated
-     2. if you like
- - [ ] yet to be done
- - [X] item which is done
+- list item
+- another item
+  - sub-item
+    1. also enumerated
+    2. if you like
+- [ ] yet to be done
+- [X] item which is done
 
- : Simple pre-formatted text such as for source code.
- : This also respects the line breaks. *bold* is not bold here.
+: Simple pre-formatted text such as for source code.
+: This also respects the line breaks. *bold* is not bold here.
