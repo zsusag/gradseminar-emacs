@@ -1,0 +1,102 @@
+What is Emacs, and why learn it?
+
+- Originally named EMACS (Editor MACroS), first developed in the 1970s
+
+- Extensible & customizable
+
+- Also nice to have a text editor where you don't need to take your hands off your keyboard (i.e. use the mouse). It makes things pretty fast!
+
+
+
+Before you begin
+
+- bashrc/zshrc: set alias emacs='emacs -nw -f shell' so you can straight-up open emacs on the terminal :)
+
+- LOTS of Ctrl and Alt (also called Meta)!
+
+Essential commands
+
+- Ctrl-x Ctrl-c to leave emacs
+
+- Ctrl-x Ctrl-f to open a file
+
+- Ctrl-k to close a buffer
+
+- Ctrl-x Ctrl-s to save
+
+- Ctrl-s to search within buffer
+
+- Ctrl-g to abort search
+
+- WARNING: Ctrl-z will pause emacs and take you back to your shell. In this case, typing the command `fg` should take you back to emacs :)
+
+Navigation
+
+If you can't use arrow keys
+
+- Ctrl-f to move forwards/right (by a character)
+- Alt-f to move forwards/right (by a word)
+
+- Ctrl-b to move backwards/left
+- Alt-b to move backwards/left (by a word)
+
+- Ctrl-p to move up a line
+
+- Ctrl-n to move down a line
+
+Even if you can use home and end keys...
+
+- Ctrl-a to go to beginning of line
+- Ctrl-e to go to end of line
+
+Navigating large buffers
+
+- Ctrl-v to move down a whole window
+
+- Alt-v to move up a whole window
+
+- Alt-< (Alt-Shift-,) to jump to the very beginning
+
+- Alt-> (Alt-Shift-.) to jump to the very end
+
+Multiple screens
+
+- Ctrl-x → to move to next screen
+
+- Ctrl-x ← to move to previous screen
+
+Viewing multiple windows
+
+- Ctrl-x 2 to split vertically
+
+- Ctrl-x 3 to split horizontally
+
+- Ctrl-x Ctrl-o to switch between open windows
+
+- Ctrl-x 0 to remove current window
+
+- Ctrl-x 1 to remove all *other* windows
+
+Helpful Commands
+
+- Alt-x followed by command name
+
+- Some commands I like to use:
+  - Alt-x shell: opens the shell
+  - Alt-x ispell-buffer: spell check
+  - Alt-x diff: Perform a diff between two files
+
+Shell
+
+- The best part about having the shell on emacs is that you can easily copy-paste parts of your shell
+
+- The buffer stores your entire shell as well, so you can go super far back
+
+- Scroll fast!
+
+- Alt-/ often fills in the rest of a partially filled word (if there is a matched word previously in the buffer)
+
+- When you're on the command line:
+  - Ctrl-c Ctrl-p to go to previous command
+  - Ctrl-c Ctrl-n to go to next command
+  - Alt-r to search for previously invoked command
