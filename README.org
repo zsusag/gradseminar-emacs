@@ -12,7 +12,7 @@ an entire operating system. But wait, isn't Emacs just a text editor?
 Nearly all functionality in Emacs is implemented in [[https://en.wikipedia.org/wiki/Emacs_Lisp][Emacs Lisp (Elisp)]], a
 dialect of Lisp. Emacs' "kernel" (written in C) is effectively an interpreter
 for Elisp. This enables Emacs to be ported to multiple operating systems and
-architectures without having to modify the bulk of the functionality written in Elisp.
+architectures without having to modify the bulk of the functionality.
 
 **** Emacs is an OS
 Many, many, /many/ applications have been developed to extend Emacs'
